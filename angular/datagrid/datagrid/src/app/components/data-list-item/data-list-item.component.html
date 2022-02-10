@@ -1,0 +1,7 @@
+<hr>
+<h3 [ngClass]="{'checked' : todo.completed}">{{todo.title}}</h3>
+<div>
+    <button *ngIf="todo.completed" (click)="uncheck()">❌</button>
+    <button *ngIf="!todo.completed" (click)="check()">✔️</button>
+    <button (click)="delete()">🗑️</button>
+</div>

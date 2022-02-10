@@ -1,0 +1,8 @@
+.checked {
+    text-decoration: line-through;
+    color: rgb(122, 122, 122);
+}
+
+div {
+    text-align: right;
+}
